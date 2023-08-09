@@ -1,0 +1,15 @@
+ <div style="text-align: center; margin-top : 150px">
+ 
+     <div style="margin-bottom : 30px">
+        <h1> Prénom : <%= @user.first_name %> </h1>
+        <h1> Nom : <%= @user.last_name %> </h1>
+        <h1> Description : <%= @user.description %> </h1>
+        <h1> adresse email :  <%= @user.email %> </h1>
+        <h1> l'age : <%= @user.age %> </h1>
+         <h1> le nom de la ville : <%= @user.city.name %> </h1>
+
+        <%= button_to "redirection a l'acceuil", root_path, method: :get %>
+         
+
+    </div>
+</div>

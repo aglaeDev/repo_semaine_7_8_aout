@@ -76,3 +76,5 @@ end
   gem "letter_opener", group: :development
 
 gem "pg", "~> 1.1"
+
+gem "devise", "~> 4.9"
